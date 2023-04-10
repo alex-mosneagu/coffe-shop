@@ -1,0 +1,79 @@
+header{
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    top: 0;
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 88.4%;
+        margin: 0px auto;
+        border: 2px solid #035048;
+        position: relative;
+        border-top: 0;
+        .socials{
+            width: 35%;
+            display: flex;
+            align-content: center;
+            padding-left: 20px;
+            .social{
+                margin-right: 10px;
+                height: 20px;
+                width: 20px;
+                background-color: #035048;
+                a{
+                    height: 20px;
+                    width: 20px;
+                    background-color: #035048;
+                }
+            }
+        }
+        .logo{
+            text-align: center;
+            width: 30%;
+            font-size: 30px;
+            font-family: 'Cormorant Garamond', serif;
+            color: #035048;
+        }
+        .menu{
+            width: 35%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            .items{
+                display: flex;
+                align-items: center;
+                .item{
+                    margin: 0px 20px;
+                    a{
+                        font-size: 14px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            .search-cart{
+                height: 60px;
+                width: 130px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-left: 2px solid #035048;
+                margin-left: 20px;
+                .search{
+                    margin-right: 10px;
+                    height: 20px;
+                    width: 20px;
+                    background-color: #035048;
+                }
+                .cart{
+                    height: 20px;
+                    width: 20px;
+                    background-color: #035048;
+                }
+            }
+        }
+        
+
+    }
+}
